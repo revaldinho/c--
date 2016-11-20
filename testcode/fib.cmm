@@ -1,0 +1,13 @@
+BEGIN
+   
+   ping := 1;
+   pong := 1;
+   
+   REPEAT
+      new_pong := ping+pong ;
+      ping := pong ;
+      pong := new_pong ;
+   UNTIL ping = 610;
+   
+END
+

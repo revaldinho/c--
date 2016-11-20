@@ -1,0 +1,15 @@
+BEGIN
+	E:= 3332 * 3 + 4 * 5;
+	BERT := 2;
+	IF E = 1 THEN
+		E:= 2+BERT;
+	ELSE
+		E:=55;
+	ENDIF;
+	
+	REPEAT
+		E:=E + 1;
+	UNTIL	E = 100;
+
+END;
+
